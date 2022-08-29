@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Введите координаты A точка X");
+int Ax = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите координаты A точка Y");
+int Ay = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите координаты B точка X");
+int Bx = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите координаты B точка Y");
+int By = int.Parse(Console.ReadLine());
+double A = Math.Pow((Ax - Bx), 2);
+double B = Math.Pow((Ay - By), 2);
+double d = Math.Sqrt(A + B);
+Console.WriteLine("A(" + Ax + "," + Ay + "); B(" + Bx + "," + By + ") -> " + d);
