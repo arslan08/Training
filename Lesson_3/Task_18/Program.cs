@@ -10,15 +10,19 @@ if (x == 1)
 {
     chetverc(">", ">");
 }
-if (x == 2)
+else if (x == 2)
 {
     chetverc("<", ">");
 }
-if (x == 3)
+else if (x == 3)
 {
     chetverc("<", "<");
 }
-if (x == 4)
+else if (x == 4)
 {
     chetverc(">", "<");
+}
+else
+{
+    Console.WriteLine("Ввели не правильный номер четверти");
 }
