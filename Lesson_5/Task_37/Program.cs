@@ -7,7 +7,7 @@ for (int i = 0; i < arr.Length; i++)
 
 for (int i = 0; i < arr.Length; i++)
 {
-    if (i != arr.Length - 1 - i & i < arr.Length - 1 - i) ChekNum = ChekNum + " " + (arr[i] + arr[arr.Length - 1 - i]);
+    if (i != arr.Length - 1 - i & i < arr.Length - 1 - i) ChekNum = ChekNum + " " + (arr[i] * arr[arr.Length - 1 - i]);
     else if (i < arr.Length - 1 - i) ChekNum = ChekNum + " " + arr[i];
 }
 Console.WriteLine($"[{string.Join(", ", arr)}] -> {ChekNum}");
