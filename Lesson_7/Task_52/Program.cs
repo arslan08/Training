@@ -33,6 +33,7 @@ void arithmeticMeanArray(int[,] array)
             SumColumns += array[j, i];
         }
         Console.Write("{0,3:F1}; ", SumColumns / array.GetLength(0));
+        SumColumns = 0;
 
     }
 }
